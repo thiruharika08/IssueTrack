@@ -1,683 +1,164 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/🐞_BugTracker-Pro-6366f1?style=for-the-badge&labelColor=1e1b4b" alt="BugTracker Pro" />
-</p>
-
-<h1 align="center">BugTracker Pro</h1>
-
-<p align="center">
-  <strong>Enterprise Bug Tracking & QA Management Platform for Modern Engineering Teams</strong>
-</p>
-
-<p align="center">
-  A modern full-stack application for tracking bugs, managing projects, collaborating with teams, and monitoring the complete software development lifecycle.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/MongoDB-8-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Express-4.21-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Build-Passing-22c55e?style=flat-square" alt="Build" />
-  <img src="https://img.shields.io/badge/Tests-Verified-22c55e?style=flat-square" alt="Tests" />
-  <img src="https://img.shields.io/badge/Production-Ready-6366f1?style=flat-square" alt="Production Ready" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="MIT License" />
-</p>
-
-<p align="center">
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-architecture">Architecture</a> •
-  <a href="#-api-overview">API</a> •
-  <a href="#-screenshots">Screenshots</a>
-</p>
-
----
-
-# 📋 Overview
-
-**BugTracker Pro** is a modern full-stack bug tracking and project management platform built with the MERN stack. It simplifies the complete software defect lifecycle—from issue reporting and assignment to QA validation, resolution, and release—through a clean, responsive, and enterprise-inspired interface.
-
-Unlike basic CRUD portfolio projects, BugTracker Pro demonstrates how real engineering teams organize bug reporting, collaboration, project management, analytics, and quality assurance within a single application.
-
-### 🚀 Project Highlights
-
-- 🐞 120 realistic seeded bugs across multiple enterprise projects
-- 👥 Role-Based Access Control with Admin, Manager, Developer, and QA roles
-- 📊 Interactive analytics dashboard with real-time insights
-- 📁 Complete project and bug lifecycle management
-- 📄 Export reports in CSV, Excel, and PDF formats
-- ⚡ Zero-configuration development environment with automatic data seeding
-
-# 🎯 Why BugTracker Pro?
-
-Many portfolio projects demonstrate basic CRUD operations. BugTracker Pro goes further by simulating how engineering teams manage bugs, collaborate across roles, and track project progress in a real-world environment.
-
-The project focuses on practical workflows, scalable architecture, and a professional user experience inspired by modern engineering platforms.
-
-| Common Portfolio Limitation | How BugTracker Pro Stands Out |
-|-----------------------------|-------------------------------|
-| Simple CRUD demonstrations | Simulates a complete enterprise bug management workflow |
-| Limited sample data | Includes realistic projects, bugs, comments, and activities |
-| Minimal architecture | Structured using modular frontend and backend layers |
-| Basic authentication | Secure role-based access with protected routes |
-| Static dashboards | Interactive analytics with charts and real-time metrics |
-| Few export options | Supports CSV, Excel, and PDF report generation |
-| Basic UI | Modern responsive interface with dark mode and smooth animations |
-
----
-
-## 🌟 What Makes It Different?
-
-- 🐞 Complete bug lifecycle management
-- 👥 Multi-role access control (Admin, Manager, Developer, QA)
-- 📊 Analytics dashboard with business insights
-- 📁 Project management and reporting
-- 📤 Professional export capabilities
-- 🔐 Security-focused backend architecture
-- 📱 Responsive interface across all devices
-- ⚡ Built using modern MERN technologies
-
----
-
-> **Designed to reflect real software engineering workflows rather than a simple demonstration project.**
-
-# 🚀 Key Features
-
-BugTracker Pro provides a complete set of tools for managing bugs, projects, team collaboration, and software quality assurance within a single platform.
-
----
-
-## 🔐 Authentication & User Management
-
-- Secure JWT-based authentication
-- Role-Based Access Control (Admin, Manager, Developer, QA Engineer)
-- Protected routes with permission-based access
-- Rate-limited login to reduce brute-force attempts
-- User profile management with avatar support
-
----
-
-## 📊 Analytics Dashboard
-
-Monitor project health with real-time analytics.
-
-### Dashboard Includes
-
-- 📈 Total, Open, Closed & Assigned Bugs
-- 🚨 Critical, Major & Minor Issue Tracking
-- 📊 Interactive Charts & Reports
-- 📝 Recent Activity Timeline
-- 👤 Role-specific dashboard views
-
----
-
-## 🐞 Bug Management
-
-Efficiently manage the complete bug lifecycle.
-
-- Auto-generated Bug IDs
-- Create, Edit & Delete Bugs
-- Assign Developers & QA Engineers
-- Priority & Severity Management
-- Workflow Status Tracking
-- Screenshot Attachments
-- Activity History
-- Advanced Search & Filters
-
----
-
-## 💬 Team Collaboration
-
-Designed for collaborative engineering teams.
-
-- Threaded Comments
-- Edit & Delete Own Comments
-- Activity Timeline
-- Timestamp Tracking
-- Team Communication History
-
----
-
-## 📁 Project Management
-
-Manage multiple software projects with ease.
-
-- Create & Manage Projects
-- Module-based Organization
-- Project-specific Bug Tracking
-- Team Assignment
-- Safe Project Deletion Validation
-
----
-
-## 📤 Reports & Export
-
-Generate reports for analysis and documentation.
-
-Supported formats:
-
-- 📄 PDF
-- 📊 Excel (.xlsx)
-- 📑 CSV
-
-Exports can be filtered by:
-
-- Project
-- Status
-- Priority
-- Severity
-
----
-
-## 🎨 User Experience
-
-Built with a modern design system for better usability.
-
-- 🌙 Dark & Light Theme
-- 📱 Fully Responsive Layout
-- ⚡ Smooth Page Transitions
-- 🔔 Toast Notifications
-- 💀 Skeleton Loading States
-- ♿ Accessibility Support
-
----
-
-## ⭐ Highlights
-
-| Feature | Status |
-|---------|:------:|
-| Authentication | ✅ |
-| Bug Tracking | ✅ |
-| Project Management | ✅ |
-| Dashboard Analytics | ✅ |
-| Report Export | ✅ |
-| Role-Based Access | ✅ |
-| Responsive UI | ✅ |
-| Dark Mode | ✅ |
-| File Uploads | ✅ |
-
-# 📸 Application Preview
-
-Take a quick tour of BugTracker Pro through the screenshots below. The interface is designed to deliver a clean, responsive, and enterprise-grade user experience.
-
----
-
-## 📊 Dashboard
-
-A centralized dashboard providing project insights, bug statistics, analytics, and recent team activity.
-
-![Dashboard](BugTracker-Pro-Screenshots/Dashboard.png)
-
----
-
-## 🐞 Bug Management
-
-Create, assign, update, and monitor bugs with advanced filtering, priority management, and workflow tracking.
-
-![Bug Management](BugTracker-Pro-Screenshots/Bugs.png)
-
----
-
-## 📁 Project Management
-
-Organize projects, assign teams, and manage modules from a single workspace.
-
-![Projects](BugTracker-Pro-Screenshots/Projects.png)
-
----
-
-## 📈 Reports
-
-Generate professional reports and export data in PDF, Excel, or CSV formats.
-
-![Reports](BugTracker-Pro-Screenshots/Reports.png)
-
----
-
-## 👥 Team Management
-
-Manage users, roles, and collaboration across development and QA teams.
-
-![Team](BugTracker-Pro-Screenshots/Team.png)
-
----
-
-## ⚙️ Settings
-
-Customize themes, preferences, and application settings for a personalized experience.
-
-![Settings](BugTracker-Pro-Screenshots/Settings.png)
-
----
-
-# ✨ UI Highlights
-
-- 🎨 Modern glassmorphism-inspired interface
-- 🌙 Dark & Light mode support
-- 📱 Responsive across desktop, tablet, and mobile
-- ⚡ Smooth page transitions and animations
-- ♿ Accessibility-focused design
-- 🚀 Optimized for performance and usability
-
-# 🛠️ Tech Stack
-
-BugTracker Pro is built using a modern MERN stack with carefully selected libraries that deliver performance, scalability, security, and an excellent developer experience.
-
----
-
-## ⚛️ Frontend
-
-| Technology | Purpose |
-|------------|---------|
-| React 19 | Component-based user interface development |
-| Vite 5 | Fast development server with optimized production builds |
-| Tailwind CSS | Utility-first styling and responsive layouts |
-| Framer Motion | Smooth animations and interactive transitions |
-| React Router | Client-side routing and protected navigation |
-| React Hook Form | Form management and validation |
-| Recharts | Interactive analytics and dashboard visualizations |
-| Axios | API communication with interceptors |
-| Lucide React | Lightweight SVG icon library |
-| date-fns | Date formatting and utility functions |
-
----
-
-## 🛠 Backend
-
-| Technology | Purpose |
-|------------|---------|
-| Node.js 20 | JavaScript runtime environment |
-| Express.js | REST API development and middleware handling |
-| MongoDB + Mongoose | Document database with schema validation |
-| JWT | Secure authentication and authorization |
-| bcryptjs | Password hashing and encryption |
-| Helmet | Security-focused HTTP headers |
-| express-rate-limit | API rate limiting and brute-force protection |
-| Multer | File upload handling |
-| ExcelJS | Excel report generation |
-| PDFKit | PDF report generation |
-| Compression | Response compression for improved performance |
-| mongodb-memory-server | In-memory database for local development |
-
----
-
-## ⚡ Development Environment
-
-| Requirement | Recommended Version |
-|-------------|---------------------|
-| Node.js | 18+ |
-| npm | Latest Stable |
-| MongoDB | 8+ |
-| Git | Latest |
-| VS Code | Latest |
-
----
-
-## 🎯 Why This Stack?
-
-- ⚡ High-performance development workflow
-- 🔒 Secure authentication and backend architecture
-- 📦 Scalable MERN application structure
-- 📱 Responsive and accessible UI
-- 🎨 Modern design system with Tailwind CSS
-- 🚀 Optimized build performance using Vite
-- 📊 Powerful analytics and reporting capabilities
-- ♻️ Easy maintenance and future scalability
-
----
-
-## 🚀 Key Advantages
-
-- Modern full-stack architecture
-- Enterprise-ready technology stack
-- Fast local development
-- Optimized production builds
-- Modular and reusable codebase
-- Strong community and long-term support
-
-# 🏗️ Architecture
-
-BugTracker Pro follows a scalable MERN architecture with a clear separation between the frontend, backend, and database layers. Each layer has a dedicated responsibility, making the application easier to maintain, extend, and deploy.
-
----
-
-## 📐 System Architecture
+# IssueTrack – Issue Tracking & Project Management System
+
+IssueTrack is a full-stack web application designed to help development teams manage, track, and monitor software issues throughout their development lifecycle.
+
+It provides a centralized platform for reporting issues, managing priorities, tracking progress, collaborating through comments, and monitoring project activities.
+
+## Features
+
+- **Dashboard:** View issue statistics, status distribution, and monthly issue trends.
+- **Issue Management:** Create, view, search, edit, and delete issues.
+- **Priority & Severity:** Categorize issues based on their importance and impact.
+- **Status Tracking:** Monitor issue progress through status updates.
+- **Comments:** Collaborate and discuss issues with team members.
+- **Project Management:** Create and manage projects.
+- **Reports:** Export issue reports in CSV, Excel, and PDF formats.
+- **Team Management:** View team members and their roles.
+- **User Authentication:** Register, log in, and manage user profiles.
+- **Theme Customization:** Switch between light and dark modes.
+
+## Technology Stack
+
+**Frontend**
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- Framer Motion
+- React Router
+
+**Backend**
+- Node.js
+- Express.js
+- REST APIs
+
+**Database**
+- MongoDB
+
+**Tools**
+- Git and GitHub
+- VS Code
+- npm
+
+## Project Structure
 
 ```text
-                    ┌──────────────────────────┐
-                    │        Frontend          │
-                    │      React + Vite SPA    │
-                    └────────────┬─────────────┘
-                                 │
-                   HTTP / REST API (JSON)
-                                 │
-                    ┌────────────▼─────────────┐
-                    │        Express API       │
-                    │ Authentication • Routes  │
-                    │ Controllers • Services   │
-                    └────────────┬─────────────┘
-                                 │
-                          Mongoose ODM
-                                 │
-                    ┌────────────▼─────────────┐
-                    │         MongoDB          │
-                    │ Users • Projects • Bugs  │
-                    │ Comments • Activities    │
-                    └──────────────────────────┘
-```
-
----
-
-## 🧩 Architecture Layers
-
-### 🎨 Frontend
-
-The frontend is built with React and Vite, providing a responsive and interactive single-page application.
-
-Responsibilities include:
-
-- User Interface
-- Protected Routes
-- API Communication
-- Theme Management
-- Form Validation
-- Dashboard Visualization
-
----
-
-### ⚙️ Backend
-
-The Express backend handles business logic, authentication, validation, and secure API endpoints.
-
-Core responsibilities:
-
-- Authentication
-- Authorization
-- Bug Management
-- Project Management
-- Report Generation
-- File Upload Processing
-
----
-
-### 🗄️ Database
-
-MongoDB stores all application data using structured Mongoose models.
-
-Collections include:
-
-- Users
-- Projects
-- Bugs
-- Comments
-- Activities
-
----
-
-## 🔄 Request Flow
-
-```text
-User
-   │
-   ▼
-React Frontend
-   │
-   ▼
-Express REST API
-   │
-   ▼
-Business Logic
-   │
-   ▼
-MongoDB Database
-   │
-   ▼
-Response → Frontend
-```
-
----
-
-## ⭐ Architecture Highlights
-
-- 🧩 Modular project structure
-- 🔒 Secure authentication flow
-- ⚡ Fast REST API communication
-- 📦 Scalable service-based architecture
-- 💾 MongoDB document storage
-- 📱 Responsive frontend
-- 🚀 Optimized for production deployment
-
----
-
-## 🎯 Design Goals
-
-- Maintainable codebase
-- Clear separation of concerns
-- Easy scalability
-- Better performance
-- Enterprise-ready architecture
-- Clean development workflow
-
-# 📂 Project Structure
-
-BugTracker Pro follows a clean and modular project structure that separates the frontend and backend into independent layers, making development, testing, and maintenance much easier.
-
----
-
-## 📁 Directory Layout
-
-```text
-bugtracker-pro/
+IssueTrack/
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── utils/
 │
-├── 📁 backend/
-│   ├── config/            # Database & application configuration
-│   ├── controllers/       # Request handlers
-│   ├── middleware/        # Authentication & validation
-│   ├── models/            # MongoDB schemas
-│   ├── routes/            # REST API routes
-│   ├── services/          # Business logic
-│   ├── utils/             # Helper utilities & seed scripts
-│   ├── uploads/           # Uploaded attachments
-│   ├── server.js
-│   └── .env.example
-│
-├── 📁 frontend/
+├── frontend/
 │   ├── public/
 │   └── src/
-│       ├── assets/
 │       ├── components/
 │       ├── context/
 │       ├── hooks/
 │       ├── layouts/
 │       ├── pages/
-│       ├── services/
-│       ├── styles/
-│       ├── App.jsx
-│       └── main.jsx
+│       └── services/
 │
-├── 📁 docs/
-│   └── QA_AUDIT_REPORT.md
-│
+├── docs/
 ├── README.md
-└── LICENSE
+└── package-lock.json
 ```
 
----
+## Installation and Setup
 
-# 📋 Folder Responsibilities
-
-| Folder | Description |
-|---------|-------------|
-| 📁 **backend** | Handles APIs, authentication, business logic, and database operations. |
-| 📁 **frontend** | Contains the complete React application and user interface. |
-| 📁 **controllers** | Processes incoming requests and returns responses. |
-| 📁 **models** | Defines MongoDB collections using Mongoose schemas. |
-| 📁 **routes** | Registers and organizes API endpoints. |
-| 📁 **services** | Contains reusable business logic independent of controllers. |
-| 📁 **middleware** | Authentication, validation, upload handling, and security middleware. |
-| 📁 **utils** | Utility functions, helper methods, and data seeding scripts. |
-| 📁 **components** | Reusable UI components shared across multiple pages. |
-| 📁 **pages** | Main application screens and route-level components. |
-| 📁 **docs** | Project documentation and QA reports. |
-
----
-
-# 🏛️ Project Design Principles
-
-- 🧩 Modular architecture
-- ♻️ Reusable components
-- 📦 Clear separation of concerns
-- 🚀 Easy scalability
-- 🔒 Secure backend design
-- 📱 Responsive frontend
-- ⚡ Optimized developer experience
-
----
-
-## ⭐ Benefits
-
-- Easy to understand
-- Beginner-friendly structure
-- Faster onboarding
-- Better maintainability
-- Independent frontend & backend
-- Scalable for future modules
-
-# 🚀 Quick Start
-
-Get BugTracker Pro running on your local machine in just a few minutes.
-
----
-
-## 📋 Prerequisites
-
-Before you begin, ensure the following tools are installed:
-
-- Node.js 18 or later
-- npm or Yarn
-- Git
-
-> 💡 MongoDB installation is optional during development. The project automatically uses an in-memory MongoDB instance when a local database is unavailable.
-
----
-
-## 📥 Installation
-
-### 1️⃣ Clone the Repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/sivaprakashtech/BugTracker-Pro.git
-cd bugtracker-pro
+git clone https://github.com/thiruharika08/IssueTrack.git
+cd IssueTrack
 ```
 
----
-
-### 2️⃣ Backend Setup
+### 2. Install backend dependencies
 
 ```bash
 cd backend
 npm install
-cp .env.example .env
 ```
 
----
+Configure your backend environment variables using the provided `.env.example` file.
 
-### 3️⃣ Frontend Setup
+### 3. Start the backend
 
-```bash
-cd ../frontend
-npm install
-```
+Use the development command configured in `backend/package.json`.
 
----
+### 4. Install frontend dependencies
 
-## ▶️ Run the Application
-
-Open two terminal windows.
-
-### Terminal 1 — Backend
-
-```bash
-cd backend
-npm run dev
-```
-
-### Terminal 2 — Frontend
+Open another terminal:
 
 ```bash
 cd frontend
+npm install
+```
+
+Configure frontend environment variables using `frontend/.env.example`.
+
+### 5. Start the frontend
+
+```bash
 npm run dev
 ```
 
----
+Open the local URL displayed by Vite in your browser.
 
-## 🌐 Open the Application
+Make sure MongoDB is running and the backend is configured before using the application.
 
-Frontend
+## Screenshots
 
-```text
-http://localhost:5173
-```
+Add screenshots of the customized application here.
 
-Backend API
+Recommended screenshots:
+- Dashboard
+- Issue Management
+- Issue Details
+- Projects
+- Reports
+- Team Management
 
-```text
-http://localhost:5000
-```
+## Customizations
 
----
+This repository is a customized version of an existing open-source project.
 
-## ⚡ Automatic Demo Data
+My contributions include:
+- Rebranding the application as IssueTrack.
+- Updating user-facing terminology from bugs to issues.
+- Customizing dashboard and issue management labels.
+- Updating login and registration branding.
+- Improving consistency across application pages.
 
-On the first startup the application automatically prepares demo data including:
+## Future Enhancements
 
-- 👥 User Accounts
-- 📁 Projects
-- 🐞 Bugs
-- 💬 Comments
-- 📊 Activity Logs
+- Advanced issue analytics.
+- Email notifications.
+- Enhanced role-based permissions.
+- Real-time collaboration.
 
-No manual database setup or data import is required.
+## Original Project Attribution
 
----
+This project is based on the open-source **BugTracker-Pro** repository:
 
-## 📦 Setup Workflow
+https://github.com/sivaprakashtech/BugTracker-Pro
 
-```text
-Clone Repository
-        │
-        ▼
-Install Backend
-        │
-        ▼
-Install Frontend
-        │
-        ▼
-Start Backend
-        │
-        ▼
-Start Frontend
-        │
-        ▼
-Open Browser
-        │
-        ▼
-Start Exploring 🚀
-```
+The original project's license and attribution are retained.
+
+## Author
+
+**Thiru Harika Itta**
+
+GitHub: https://github.com/thiruharika08
 
 ---
 
-## ✅ Ready to Go!
-
-Once both servers are running, you're ready to explore BugTracker Pro, create projects, manage bugs, collaborate with your team, and generate reports.
-
-# 🔑 Environment Variables
+If you find this project useful, consider giving the repository a star!
+ables
 
 BugTracker Pro uses environment variables to configure the backend server, database connection, authentication, and frontend API endpoint.
 
